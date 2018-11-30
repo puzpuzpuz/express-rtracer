@@ -65,6 +65,8 @@ async function find (entityId) {
 
 The main use case for this library is request id generation and logging automation. You can integrate with any logger library in a single place and get request ids in logs across your Express application.
 
+Without having a request id, as a correlation value, in your logs, you will not be able to determine which log entries belong to the process of handling the same request. You could generate a request id manually and store it in the Express `req` object, but then you will have to explicitly pass `req` into all other modules on the route. And express-rtracer comes to the rescue!
+
 Let's consider integration with [winston](https://github.com/winstonjs/winston), one of most popular logging libraries.
 
 ```javascript
