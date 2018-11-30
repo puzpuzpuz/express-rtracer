@@ -10,8 +10,10 @@ const ns = cls.createNamespace(nsid)
 /**
  * Generates a request tracer middleware.
  * @param {Object} options possible options
- * @param {boolean} options.useHeader respect request header flag (default: `true`)
- * @param {string} options.headerName request header name (used if `useHeader` set to `true`; default: `X-Request-Id`)
+ * @param {boolean} options.useHeader respect request header flag
+ *                                    (default: `true`)
+ * @param {string} options.headerName request header name, used if `useHeader` is set to `true`
+ *                                    (default: `X-Request-Id`)
  */
 const middleware = ({
   useHeader = true,

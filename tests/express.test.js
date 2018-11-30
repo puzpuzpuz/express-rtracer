@@ -17,7 +17,7 @@ describe('express-rtracer', () => {
     app.use(rTracer.middleware())
 
     let id
-    
+
     app.get('/test', (req, res) => {
       id = rTracer.id()
       res.json({ id })
@@ -110,7 +110,7 @@ describe('express-rtracer', () => {
     app.use(rTracer.middleware())
 
     let id
-    
+
     app.get('/test', (req, res) => {
       setTimeout(() => {
         id = rTracer.id()
