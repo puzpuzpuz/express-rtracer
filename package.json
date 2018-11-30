@@ -1,6 +1,6 @@
 {
   "name": "express-rtracer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Express middleware for CLS-based request id generation, batteries included",
   "author": "Andrey Pechkurov",
   "license": "MIT",
