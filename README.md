@@ -1,3 +1,6 @@
+[![travis](https://travis-ci.org/puzpuzpuz/express-rtracer.svg?branch=master)](https://travis-ci.org/puzpuzpuz/express-rtracer.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/puzpuzpuz/express-rtracer/badge.svg?branch=master)](https://coveralls.io/github/puzpuzpuz/express-rtracer?branch=master)
+
 # express-rtracer
 
 Express Request Tracer - a middleware for CLS-based request id generation, batteries included. An out-of-the-box solution for adding request id into your logs.

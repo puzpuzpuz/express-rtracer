@@ -13,8 +13,9 @@
     "node": ">=8.0.0 - <10.0.0 || >=10.4.0"
   },
   "scripts": {
-    "cover": "jest --coverage",
-    "test": "standard && jest",
+    "test-ci": "npm run lint && npm run test",
+    "cover": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test": "jest",
     "lint": "standard"
   },
   "repository": {
@@ -33,6 +34,7 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "express": "^4.16.4",
     "jest": "^23.6.0",
     "standard": "^12.0.1",
