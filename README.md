@@ -7,8 +7,6 @@ Express Request Tracer - a middleware for CLS-based request id generation, batte
 
 Automatically generates a UUID value as the id for each request and stores it in Continuation-Local Storage (CLS, see [cls-hooked](https://github.com/jeff-lewis/cls-hooked)). If the request contains `X-Request-Id` header, uses its value instead. Allows to obtain the generated id anywhere in your routes later and use it for logging or any other purposes.
 
-If for some reasons you need to store arbitrary key-value pairs in CLS within an Express-based app, consider using [express-http-context](https://github.com/skonves/express-http-context).
-
 ## How to use it
 
 Install:

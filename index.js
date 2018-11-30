@@ -19,7 +19,10 @@ const middleware = ({
   useHeader = true,
   headerName = 'X-Request-Id'
 } = {}) => {
-  return (req, _, next) => {
+  return (req, res, next) => {
+    ns.bindEmitter(req)
+    ns.bindEmitter(res)
+
     let requestId
     if (useHeader) {
       requestId = req.headers[headerName.toLowerCase()]
