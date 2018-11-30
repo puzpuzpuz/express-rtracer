@@ -12,6 +12,9 @@
   "engines": {
     "node": ">=8.0.0 - <10.0.0 || >=10.4.0"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test-ci": "npm run lint && npm run test",
     "cover": "jest --coverage --coverageReporters=text-lcov | coveralls",
