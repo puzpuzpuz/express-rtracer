@@ -1,7 +1,4 @@
-[![travis](https://travis-ci.org/puzpuzpuz/express-rtracer.svg?branch=master)](https://travis-ci.org/puzpuzpuz/express-rtracer.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/puzpuzpuz/express-rtracer/badge.svg?branch=master)](https://coveralls.io/github/puzpuzpuz/express-rtracer?branch=master)
-[![npm](https://img.shields.io/npm/v/express-rtracer.svg)](https://www.npmjs.com/package/express-rtracer)
-[![npm](https://img.shields.io/npm/dm/express-rtracer.svg)](https://www.npmjs.com/package/express-rtracer)
+# **Deprecated**: use [cls-rtracer](https://github.com/puzpuzpuz/cls-rtracer) instead
 
 # express-rtracer
 
